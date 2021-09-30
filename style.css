@@ -1,0 +1,40 @@
+html{
+    font-family: arial;
+}
+
+body{
+    background-image: url("media/images/bg.png");
+    color: white;
+}
+
+.ytB{
+    width: 170px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    transition: 500ms;
+    text-align: centre;
+    text-decoration: none;
+}
+
+.ghB{
+    width: 170px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    transition: 500ms;
+    text-align: centre;
+    text-decoration: none
+}
+
+.ytB:hover{
+    background-color: lightgrey;
+}
+
+.git_stats{
+    border-radius: 10px;
+    border-color: rgba(0,0,0,0);
+    background: rgba(0,0,0,0);
+}
