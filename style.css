@@ -3,17 +3,28 @@ html{
 }
 
 body{
-    background-image: url("media/images/bg.png");
+    background-color: black;
     color: white;
 }
 
 .ytB{
     width: 170px;
     height: 30px;
-    background-color: white;
-    color: black;
+    background-color: #7289DA;
+    color: white;
     border-radius: 30px;
-    transition: 500ms;
+    text-align: centre;
+    text-decoration: none;
+    transition: 0.115s ease-i;
+}
+
+.sSB{
+    width: 170px;
+    height: 30px;
+    background-color: #7289DA;
+    color: white;
+    border-radius: 30px;
+    transition: 0.115s ease-i;
     text-align: centre;
     text-decoration: none;
 }
@@ -21,8 +32,8 @@ body{
 .ghB{
     width: 170px;
     height: 30px;
-    background-color: white;
-    color: black;
+    background-color: #7289DA;
+    color: white;
     border-radius: 30px;
     transition: 500ms;
     text-align: centre;
@@ -33,7 +44,13 @@ body{
     background-color: lightgrey;
 }
 
-.git_stats{
+.web_stats{
+    border-radius: 10px;
+    border-color: rgba(0,0,0,0);
+    background: rgba(0,0,0,0);
+}
+
+.repo{
     border-radius: 10px;
     border-color: rgba(0,0,0,0);
     background: rgba(0,0,0,0);
